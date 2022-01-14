@@ -50,17 +50,13 @@ p {
   align-items: center;
 }
 
-svg.material-icons {
+svg.icons {
   height: 24px;
   width: auto;
 }
 
-svg.material-icons:not(:last-child) {
+svg.icons:not(:last-child) {
   margin-right: 8px;
-}
-
-.card svg.material-icons path {
-  fill: #888;
 }
 
 .card-container {
@@ -103,10 +99,6 @@ svg.material-icons:not(:last-child) {
 .card-container .card:not(.highlight-card):hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
-}
-
-.card-container .card:not(.highlight-card):hover .material-icons path {
-  fill: rgb(105, 103, 103);
 }
 
 .card.highlight-card {
